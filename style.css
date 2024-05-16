@@ -89,10 +89,6 @@ body {
     margin-right: auto;
 }
 
-.profile-content {
-    flex-direction: column; /* Stack items vertically */
-    text-align: center;
-}
 
 .profile-content .info {
     max-width: 60%;
