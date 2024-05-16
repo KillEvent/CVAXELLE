@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f9;
@@ -20,7 +21,7 @@ body {
 }
 
 .menu {
-    background-color: #A9736D;
+    background-color: #6a0dad;
     padding: 10px 0;
     width: 100%;
     text-align: center;
@@ -55,13 +56,13 @@ body {
 }
 
 .section {
-    padding: 80px 20px 20px; /* Adjusted for the fixed menu */
+    padding: 100px 20px 20px; /* Adjusted for the fixed menu */
     border-bottom: 1px solid #e8e8e8;
     height: 100vh;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Changed to align items to the top */
+    justify-content: flex-start; /* Align items to the top */
 }
 
 .section:nth-child(odd) {
@@ -88,19 +89,21 @@ body {
     margin-right: auto;
 }
 
-.profile-header {
-    text-align: center;
-    margin-bottom: 20px;
+.profile-content, .experience-content, .education-content, .skills-content, .hobbies-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-content {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    flex-direction: column; /* Stack items vertically */
+    text-align: center;
 }
 
 .profile-content .info {
-    max-width: 40%;
+    max-width: 60%;
+    margin-bottom: 20px;
 }
 
 .profile-photo {
@@ -129,20 +132,20 @@ body {
     max-width: 80%;
 }
 
-.skills, .hobbies {
+.skills {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.skill, .hobby {
+.skill {
     width: 80%; /* Adjust width to center content */
     margin-bottom: 20px;
     text-align: center;
 }
 
-.skill-logo, .hobby-logo {
+.skill-logo {
     width: 50px;
     height: 50px;
 }
@@ -166,7 +169,22 @@ body {
     width: 90%;
 }
 
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobby {
+    width: 80%; /* Adjust width to center content */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .hobby-logo {
+    width: 50px;
+    height: 50px;
     transition: transform 0.3s;
 }
 
