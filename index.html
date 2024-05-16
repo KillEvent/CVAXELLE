@@ -3,49 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon curriculum Vitae</title>
-    <link rel="stylesheet" href="style.css">
+    <title>CV de Webdesigner</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h1>Votre Nom</h1>
-            <p>Développeur Web | Designer | Autre</p>
-        </div>
-        <div class="content">
-            <div class="section">
-                <h2>Profil</h2>
-                <p>Passionné par le développement web, avec une expérience de plus de X années dans la création de sites web et d'applications interactives.</p>
+        <nav class="menu">
+            <ul>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#experience">Expérience Pro</a></li>
+                <li><a href="#education">Éducation</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#loisirs">Loisirs</a></li>
+            </ul>
+        </nav>
+       
+        <div class="section" id="profil">
+            <h2>Profil</h2>
+            <div class="profile-content">
+                <div class="info">
+                    <h3>Votre Nom Prénom</h3>
+                    <p>Date de naissance: 01/01/1990</p>
+                </div>
+                <img src="votre-photo.jpg" alt="Votre Photo" class="profile-photo">
             </div>
-            <div class="section">
-                <h2>Expérience Professionnelle</h2>
-                <div class="job">
-                    <h3>Poste actuel</h3>
+        </div>
+       
+        <div class="section" id="experience">
+            <h2>Expérience Pro</h2>
+            <div class="job">
+                <img src="logo1.png" alt="Logo 1" class="logo">
+                <div class="job-info">
+                    <h3>Poste 1</h3>
                     <p>Entreprise - Date de début à présent</p>
                     <p>Description de votre rôle et réalisations.</p>
                 </div>
-                <div class="job">
-                    <h3>Poste précédent</h3>
+            </div>
+            <div class="job">
+                <img src="logo2.png" alt="Logo 2" class="logo">
+                <div class="job-info">
+                    <h3>Poste 2</h3>
                     <p>Entreprise - Date de début à Date de fin</p>
                     <p>Description de votre rôle et réalisations.</p>
                 </div>
             </div>
-            <div class="section">
-                <h2>Éducation</h2>
-                <div class="education">
+        </div>
+       
+        <div class="section" id="education">
+            <h2>Éducation</h2>
+            <div class="education-item">
+                <img src="logo-education1.png" alt="Logo Education 1" class="logo">
+                <div class="education-info">
                     <h3>Diplôme</h3>
                     <p>Université - Date de début à Date de fin</p>
                     <p>Description du programme et des compétences acquises.</p>
                 </div>
             </div>
-            <div class="section">
-                <h2>Compétences</h2>
-                <ul class="skills">
-                    <li>HTML & CSS</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Node.js</li>
-                </ul>
+            <div class="education-item">
+                <img src="logo-education2.png" alt="Logo Education 2" class="logo">
+                <div class="education-info">
+                    <h3>Diplôme</h3>
+                    <p>Université - Date de début à Date de fin</p>
+                    <p>Description du programme et des compétences acquises.</p>
+                </div>
+            </div>
+        </div>
+       
+        <div class="section" id="competences">
+            <h2>Compétences</h2>
+            <div class="skills">
+                <div class="skill">
+                    <img src="html-logo.png" alt="HTML Logo" class="skill-logo">
+                    <div class="skill-bar"><div class="fill" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill">
+                    <img src="css-logo.png" alt="CSS Logo" class="skill-logo">
+                    <div class="skill-bar"><div class="fill" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill">
+                    <img src="js-logo.png" alt="JavaScript Logo" class="skill-logo">
+                    <div class="skill-bar"><div class="fill" style="width: 80%;"></div></div>
+                </div>
+                <div class="skill">
+                    <img src="react-logo.png" alt="React Logo" class="skill-logo">
+                    <div class="skill-bar"><div class="fill" style="width: 70%;"></div></div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="section" id="loisirs">
+            <h2>Loisirs</h2>
+            <div class="hobbies">
+                <div class="hobby">
+                    <img src="hobby1.png" alt="Hobby 1" class="hobby-logo">
+                </div>
+                <div class="hobby">
+                    <img src="hobby2.png" alt="Hobby 2" class="hobby-logo">
+                </div>
+                <div class="hobby">
+                    <img src="hobby3.png" alt="Hobby 3" class="hobby-logo">
+                </div>
+                <div class="hobby">
+                    <img src="hobby4.png" alt="Hobby 4" class="hobby-logo">
+                </div>
             </div>
         </div>
     </div>
