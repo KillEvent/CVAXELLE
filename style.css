@@ -89,13 +89,6 @@ body {
     margin-right: auto;
 }
 
-.profile-content, .experience-content, .education-content, .skills-content, .hobbies-content {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .profile-content {
     flex-direction: column; /* Stack items vertically */
     text-align: center;
